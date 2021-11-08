@@ -58,7 +58,11 @@ return(
 
       
       <SearchMovie  setFilterByTitle={setFilterByTitle} />
-      <ReactStars className="navRating"
+      
+
+    </Nav>
+    </Container>
+    <ReactStars className="navRating"
       count={5}
       onChange={(e)=>setSearchRating(e)}
       size={24}
@@ -67,9 +71,6 @@ return(
       <AddMovie  addMovie={addMovie} style={{marginRight:'500px'}}/>
 
      
-
-    </Nav>
-    </Container>
   </Navbar>
   </div>
 );
