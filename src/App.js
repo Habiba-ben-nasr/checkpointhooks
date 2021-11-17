@@ -9,11 +9,11 @@ import {Data} from './Data';
 
 const App =() => {
   const [movies, setMovies] = useState(Data);
-  const [searchRating, setSearchRating]= useState(5);
+  const [searchRating, setSearchRating]= useState(0);
   const [filterByTitle, setFilterByTitle] = useState("");
   
   const addMovie = (newMovie) => {
-    return setMovies([...Data, newMovie]);
+    return setMovies([...movies, newMovie]);
   };
     return (
       <div style={{backgroundColor: "#FCD8D4"}}>

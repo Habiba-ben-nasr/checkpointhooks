@@ -64,7 +64,7 @@ return(
     </Container>
     <ReactStars className="navRating"
       count={5}
-      onChange={(e)=>setSearchRating(e)}
+      onChange={(e)=> setSearchRating(e)}
       size={24}
       color2={'#ffd700'} 
       edit={true}/>
